@@ -5,10 +5,10 @@ then
   echo "No KUBECONFIG set, using local install"
 fi
 
-kubectl delete -f cat.yaml
-kubectl delete -f cart.yaml
-kubectl delete -f ui.yaml
-kubectl delete -f ingress.yaml
+#kubectl delete -f cat.yaml
+#kubectl delete -f cart.yaml
+#kubectl delete -f ui.yaml
+#kubectl delete -f ingress.yaml
 
 # deploy: use 'envsubst' command to replace environment variables within the deployment script.
 #kubectl create -f cat.yaml

@@ -25,8 +25,8 @@ resource "ibm_container_cluster" "test_cluster" {
   datacenter   = "dal10"
   machine_type = "u1c.2x4"
   isolation    = "public"
-  public_vlan_id = "1520295"
-  private_vlan_id = "1520297"
+  public_vlan_id = "1399217"
+  private_vlan_id = "1367387"
 
   workers = [{
     name = "worker1"
